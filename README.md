@@ -1,6 +1,6 @@
-# PandaTermTools
+# PandaTools
 
-**PandaTermTools** es un proyecto diseñado para mejorar la experiencia de usuario en la terminal, proporcionando la capacidad de mostrar colores y formatos personalizados. Permite imprimir matrices con estilos configurables, aceptando una amplia variedad de parámetros para personalizar la presentación, incluyendo colores, estilos de texto y bordes.
+**PandaTools** es un proyecto diseñado para mejorar la experiencia de usuario en la terminal, proporcionando la capacidad de mostrar colores y formatos personalizados. Permite imprimir matrices con estilos configurables, aceptando una amplia variedad de parámetros para personalizar la presentación, incluyendo colores, estilos de texto y bordes.
 
 
 ## Instalación
@@ -15,15 +15,15 @@ Para usar esta biblioteca en tu proyecto Java, sigue estos pasos:
 ## Ejemplo de uso 😎
 
 ```java
-import pandatermtools.PandaTermTools;
+import pandatools.PandaTools;
 
 public class Main {
     public static void main(String[] args) {
-        PandaTermTools.println("", 0, "hello");
-        PandaTermTools.println("ERROR", 1, "hello ERROR");
-        PandaTermTools.println("SUCCESS", 1, "hello SUCCESS");
-        PandaTermTools.println("WARNING", 1, "hello WARNING");
-        PandaTermTools.println("INFO", 1, "hello INFO");
+        PandaTools.println("", 0, "hello");
+        PandaTools.println("ERROR", 1, "hello ERROR");
+        PandaTools.println("SUCCESS", 1, "hello SUCCESS");
+        PandaTools.println("WARNING", 1, "hello WARNING");
+        PandaTools.println("INFO", 1, "hello INFO");
         System.out.println();
 
         String[][] productos = {
@@ -33,7 +33,7 @@ public class Main {
                 {"Naranja importada china", "0.75", "8", "6.00"}
         };
 
-        PandaTermTools.printMatrix(productos, "bold", "SUCCESS", "normal", "", 0);
+        PandaTools.printMatrix(productos, "bold", "SUCCESS", "normal", "", 1);
 
     }
 }
