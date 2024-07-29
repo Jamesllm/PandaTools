@@ -42,3 +42,6 @@ public class Main {
 ## Resultado 😎
 
 ![image](https://github.com/user-attachments/assets/035c53a9-deb8-45e5-b6cc-9b96ad2e2eec)
+
+
+@Autor: Llapapasca Montes Ronal James
