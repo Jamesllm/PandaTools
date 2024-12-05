@@ -14,7 +14,7 @@ Para usar esta biblioteca en tu proyecto Java, sigue estos pasos:
     - Si estás utilizando un IDE como Eclipse o IntelliJ, puedes agregar el archivo JAR descargado a tu proyecto como una dependencia externa
     - Si estás compilando manualmente, asegúrate de incluir el archivo JAR en tu classpath al compilar y ejecutar tu proyecto.
 
-## Ejemplo de uso 😎
+## Ejemplo de uso
 
 ```java
 import pandatools.PandaTools;
@@ -41,7 +41,7 @@ public class Main {
 }
 ```
 
-## Resultado 😎
+## Resultado
 
 ![image](https://github.com/user-attachments/assets/035c53a9-deb8-45e5-b6cc-9b96ad2e2eec)
 
